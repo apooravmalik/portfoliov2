@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import HeroImg from "C:/Work/Web/portfoliov2/src/assets/HeroImg.png";
+import HeroImg from "../assets//HeroImg.png";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
