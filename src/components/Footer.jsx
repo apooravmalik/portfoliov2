@@ -4,7 +4,7 @@ import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 const Footer = () => {
   return (
     <div className="mt-10 mb-16 footer">
-      <h1 class="text-white mb-10 underline underline-offset-8 decoration-green-500 flex justify-center font-Glimer-Heavy font-extrabold sm:text-[3rem] md:text-[3.4rem] lg:text-[4.9rem] xl:text-[6.1rem] 1/2xl:text-[6.2rem] 2xl:text-[6rem] text-[2.9rem] leading-[3.5rem] sm:leading-[3.5rem] md:leading-[4rem] lg:leading-[5rem] xl:leading-[6.5rem] 2xl:leading-[7rem]  cursor-default">
+      <h1 class="text-white mb-10 underline underline-offset-8 decoration-green-500 flex justify-center font-Glimer-Heavy font-extrabold lg:text-7xl text-4xl leading-[3.5rem] sm:leading-[3.5rem] md:leading-[4rem] lg:leading-[5rem] xl:leading-[6.5rem] 2xl:leading-[7rem]  cursor-default">
         Let's Get in Touch!
       </h1>
       <a href="https://drive.google.com/file/d/1mlGP9l2pIBKgfqohbZd1GtMS20iXNYyT/view?usp=sharing" className="flex justify-center m-8" target="_blank">
