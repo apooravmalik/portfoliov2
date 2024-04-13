@@ -19,10 +19,10 @@ const Navbar = () => {
   return (
     <Fade cascade damping={0.3} triggerOnce>
       <nav className="py-10 px-10 flex justify-between">
-        <h1 className="text-white text-2xl font-bold underline underline-offset-8 decoration-green-500">
+        <h1 className="text-white text-xl lg:text-2xl font-bold underline underline-offset-8 decoration-green-500">
           Apoorav Malik👨🏻‍💻
         </h1>
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap -6 lg:gap-10">
           {socials.map((social, index) => {
             const Icon = social.Icon;
             return (
