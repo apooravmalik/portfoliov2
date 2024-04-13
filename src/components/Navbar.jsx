@@ -31,6 +31,7 @@ const Navbar = () => {
                 key={index}
                 aria-label="social.label"
                 className="text-white text-xl active:scale-90 transition-all duration-150 ease-out hover:text-green-500 hover:scale-125"
+                target="_blank"
               >
                 <Icon />
               </a>
