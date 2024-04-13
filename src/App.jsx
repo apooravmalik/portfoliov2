@@ -17,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className="app cursor-none container min-h-screen max-w-full bg-black overflow-y-scroll overflow-hidden md: w-screen h-0 ">
+    <div className="app cursor-none container min-h-screen max-w-full bg-black overflow-y-scroll overflow-hidden md: w-screen h-0 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-green-500 ">
       {isLoading ? (
         <TerminalAnimation onFinished={handleLoaderFinished} />
       ) : (

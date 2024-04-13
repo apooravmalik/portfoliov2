@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="text-white flex flex-col lg:flex-row lg:items-center lg:mb-6">
       <div className="lg:w-1/2">
         <Fade triggerOnce>
-          <h1 className="text-4xl hover:text-green-500 hover:scale-125xl lg:text-7xl font-semibold px-10">
+          <h1 className="text-4xl hover:scale-125xl lg:text-7xl font-semibold px-10">
             Nice to meet you👋
           </h1>
         </Fade>
