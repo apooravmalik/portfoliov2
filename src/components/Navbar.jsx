@@ -22,7 +22,7 @@ const Navbar = () => {
         <h1 className="text-white text-xl lg:text-2xl font-bold underline underline-offset-8 decoration-green-500">
           Apoorav Malik👨🏻‍💻
         </h1>
-        <div className="flex items-center gap -6 lg:gap-10">
+        <div className="flex items-center gap-6 lg:gap-10">
           {socials.map((social, index) => {
             const Icon = social.Icon;
             return (
