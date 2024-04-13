@@ -17,7 +17,7 @@ const Hero = () => {
           <span className="text-4xl lg:text-6xl font-extrabold py-10 underline underline-offset-8 decoration-green-500 ">
             <Typewriter
               options={{
-                strings: ["I'm a Web Developer.", "I'm a Student.", "I'm a ⚽ lover.", "I'm Apoorav."],
+                strings: ["I'm a Web Dev.", "I'm a Student.", "I'm a ⚽ lover.", "I'm Apoorav."],
                 autoStart: true,
                 loop: true,
                 cursor: "",
