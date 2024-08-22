@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import TerminalAnimation from "./components/TerminalAnimation";
+import MyExperiences from "./components/MyExperience";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,6 +41,7 @@ function App() {
           </div>
           <Skills />
           <Projects />
+          <MyExperiences />
           <Footer />
         </>
       )}
